@@ -1,3 +1,4 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+locations_bundle_locations:
+    resource: "@LocationsBundle/Controller/"
+    type:     annotation
+    prefix:   /
